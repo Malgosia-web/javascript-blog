@@ -1,3 +1,4 @@
+{
 const titleClickHandler = function(event){
   event.preventDefault();
   const clickedElement = this;
@@ -58,16 +59,23 @@ function generateTitleLinks(){
   console.log(article);
   }
 
-    /* get the article id */
+    /* !!!!!!!!!!!!!!!!!!!!!!!!!!!! get the article id */
+  const articleId = article.getAttribute('id');
+  console.log(articleId);
 
     /* find the title element */
+    const articleTitle = article.querySelector(optTitleSelector).innerHTML;
 
     /* get the title from the title element */
 
+
     /* create HTML of the link */
+    const linkHTML = '<li><a href="#' + articleId + '"><span>' + articleTitle + '</span></a></li>';
+    console.log(linkHTML)
 
     /* insert link into titleList */
 
 }
 
 generateTitleLinks();
+}
