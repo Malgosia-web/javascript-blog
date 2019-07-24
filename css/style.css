@@ -111,4 +111,8 @@ body {
 .post-tags span {
   margin-right: 10px;
 }
+
+.tag-size-X {
+  display: inline;
+}
 /*# sourceMappingURL=style.css.map */
