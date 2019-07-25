@@ -78,7 +78,8 @@ body {
 }
 
 .list-horizontal li {
-  display: inline-block;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
 }
 
 /* Authors */
@@ -112,7 +113,43 @@ body {
   margin-right: 10px;
 }
 
-.tag-size-X {
-  display: inline;
+.tag-size-1 {
+  margin-left: 7px;
+  text-decoration: none;
+  color: #00cec9;
+  font-size: 12px;
+  font-style: "Oswald", sans-serif;
+}
+
+.tag-size-2 {
+  margin-left: 7px;
+  text-decoration: none;
+  color: #e17055;
+  font-size: 15px;
+}
+
+.tag-size-3 {
+  margin-left: 7px;
+  text-decoration: none;
+  color: #a29bfe;
+  font-size: 18px;
+  font-family: cursive;
+}
+
+.tag-size-4 {
+  margin-left: 7px;
+  text-decoration: none;
+  color: #74b9ff;
+  font-size: 21px;
+  font-family: cursive;
+}
+
+.tag-size-5 {
+  margin-left: 7px;
+  text-decoration: none;
+  color: #636e72;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: bold;
 }
 /*# sourceMappingURL=style.css.map */
